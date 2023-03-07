@@ -1,0 +1,302 @@
+{
+    "roles": [
+        {
+            "id": "dV0czSliUJgciTF5lhg9O",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "deleted_at": "2023-01-01 00:00:00",
+            "name": "ETC Latam — Admin",
+            "description": "Administrador de ETC Latam",
+            "permissions": []
+        },
+        {
+            "id": "2LXrdvXi5bOLh5MFIDtYp",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "deleted_at": "2023-01-01 00:00:00",
+            "name": "City Mall — Supervisor",
+            "description": "Administrador de ETC Latam",
+            "permissions": []
+        },
+        {
+            "id": "2LXrdvXi5bOLh5MFIDtYp",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "deleted_at": "2023-01-01 00:00:00",
+            "name": "City Mall — Supervisor 2",
+            "description": "Administrador de ETC Latam",
+            "permissions": []
+        }
+    ],
+    "clients": [
+        {
+            "id": "RLFYX66MHIyVWU532pZV2",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "ETC LATAM",
+            "description": "Empresa de tecnología",
+            "address": "Calle 1, 2, 3",
+            "phone": "123456789",
+            "email": "example@email.com",
+            "website": "https://www.etc-latam.com/",
+            "facebook": "https://www.facebook.com/ETCLATAM/",
+            "twitter": "https://twitter.com/ETCLATAM",
+            "instagram": "https://www.instagram.com/etclatam/",
+            "linkedin": "https://www.linkedin.com/company/etclatam/",
+            "youtube": "https://www.youtube.com/channel/UCZQZ1Z1Z1Z1Z1Z1Z1Z1Z1Z1",
+            "is_active": true
+        },
+        {
+            "id": "CUsjCyt1QJk8rmgbr9DcX",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "City Mall",
+            "description": "Centro comercial",
+            "address": "Calle 1, 2, 3",
+            "phone": "123456789",
+            "email": "example@email.com",
+            "website": "https://www.etc-latam.com/",
+            "facebook": "https://www.facebook.com/ETCLATAM/",
+            "twitter": "https://twitter.com/ETCLATAM",
+            "instagram": "https://www.instagram.com/etclatam/",
+            "linkedin": "https://www.linkedin.com/company/etclatam/",
+            "youtube": "https://www.youtube.com/channel/UCZQZ1Z1Z1Z1Z1Z1Z1Z1Z1Z1",
+            "is_active": true
+        }
+    ],
+    "users": [
+        {
+            "id": "VcZD2epO4b4ZDhUMHWKjD",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "first_name": "John",
+            "last_name": "Doe",
+            "username": "johndoe",
+            "email": "johndoe@email.com",
+            "type": "ADMIN",
+            "role": "ETC Latam — Admin",
+            "is_active": true,
+            "organization": "ETC LATAM"
+        },
+        {
+            "id": "QBBH3kd0L14mxRh9LupNP",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "first_name": "David",
+            "last_name": "Fernandez",
+            "username": "davidfernandez",
+            "email": "davidfernandez@email.com",
+            "type": "CLIENT",
+            "role": "City Mall — Supervisor",
+            "is_active": true,
+            "organization": "ETC LATAM"
+        }
+    ],
+    "incident-types": [
+        {
+            "id": "1",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "Falla conexión al servidor",
+            "description": "Falla de conexión al servidor"
+        },
+        {
+            "id": "2",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "Falla conexión a internet",
+            "description": "Falla de conexión a internet"
+        }
+    ],
+    "tickets": [
+        {
+            "id": "1",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "subject": "Ticket 1",
+            "description": "Ticket 1 description",
+            "status": "open",
+            "priority": "normal",
+            "client": "ETC LATAM",
+            "requested_by": "johndoe",
+            "assigned_to": "davidfernandez",
+            "incident_type": "Falla conexión al servidor"
+        }
+    ],
+    "priorities": [
+        {
+            "id": "1",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "Baja",
+            "color": "#000000",
+            "description": "Prioridad baja"
+        },
+        {
+            "id": "2",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "Normal",
+            "color": "#000000",
+            "description": "Prioridad normal"
+        },
+        {
+            "id": "3",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "Alta",
+            "color": "#000000",
+            "description": "Prioridad alta"
+        },
+        {
+            "id": "4",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "Urgente",
+            "color": "#000000",
+            "description": "Prioridad urgente"
+        }
+    ],
+    "statuses": [
+        {
+            "id": "1",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "Abierto",
+            "description": "Ticket is open"
+        },
+        {
+            "id": "2",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "Cerrado",
+            "description": "Ticket is closed"
+        },
+        {
+            "id": "3",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "Pendiente",
+            "description": "Ticket is pending"
+        },
+        {
+            "id": "4",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "Resuelto",
+            "description": "Ticket is resolved"
+        },
+        {
+            "id": "5",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "Spam",
+            "description": "Ticket is spam"
+        },
+        {
+            "id": "6",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "Eliminado",
+            "description": "Ticket is deleted"
+        }
+    ],
+    "countries": [
+        {
+            "id": "gvUhOPvQ7JuHo7gB5LY9w",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "Honduras",
+            "code": "HN",
+            "currency": "LPS",
+            "language": "es",
+            "cities": ["Cortes", "Tegucigalpa", "San Pedro Sula"]
+        },
+        {
+            "id": "eD03LNkkAo27FCC9ZWWpg",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "El Salvador",
+            "code": "SV",
+            "currency": "USD",
+            "language": "es",
+            "cities": []
+        },
+        {
+            "id": "c87N9CZgeWuj08VmRjUqm",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "Costa Rica",
+            "code": "CR",
+            "currency": "CRC",
+            "language": "es",
+            "cities": []
+        },
+        {
+            "id": "laT3cqW0HdaNLVzTTGhxY",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "Nicaragua",
+            "code": "NI",
+            "currency": "NIO",
+            "language": "es",
+            "cities": []
+        },
+        {
+            "id": "tk4wuYUH9t4aFX2S8bPoG",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "Guatemala",
+            "code": "GT",
+            "currency": "GTQ",
+            "language": "es",
+            "cities": []
+        }
+    ],
+    "cities": [
+        {
+            "id": "qdl7kOUsrC4Q8D5jy8fuG",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "Tegucigalpa",
+            "country": "Honduras"
+        },
+        {
+            "id": "D6Cy87YkLJtzyuFdTQenb",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "San Pedro Sula",
+            "country": "Honduras"
+        }
+    ],
+    "reports": [
+        {
+            "id": "hRNj16ftwrXl4OmL9nY1L",
+            "created_at": "2021-01-01 00:00:00",
+            "updated_at": "2021-02-01 00:00:00",
+            "name": "Reporte para la semana 23",
+            "type": "Reporte general",
+            "description": "Description 2",
+            "format": "PDF",
+            "date_from": "2021-01-01",
+            "date_to": "2021-02-01",
+            "hour_from": "00:00",
+            "hour_to": "00:00",
+            "user": "johndoe"
+        },
+        {
+            "id": "LNK1cwX4rjlf3xZPXQHXN",
+            "created_at": "2020-01-01 00:00:00",
+            "updated_at": "2022-01-01 00:00:00",
+            "name": "Reporte para jefe de soporte",
+            "type": "Reporte de tickets",
+            "description": "Description 2",
+            "format": "Excel",
+            "date_from": "2021-01-01",
+            "date_to": "2021-01-13",
+            "hour_from": "00:00",
+            "hour_to": "00:00",
+            "user": "johndoe"
+        }
+    ]
+}
